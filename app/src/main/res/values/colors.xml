@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-
+    <!--底部导航按钮的颜色-->
     <color name="tab_main_line">#505966</color>
     <color name="tab_text_checked">#F2342A</color>
     <color name="tab_text_normal">#505966</color>

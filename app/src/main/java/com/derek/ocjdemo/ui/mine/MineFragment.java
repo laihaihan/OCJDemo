@@ -1,19 +1,15 @@
 
 package com.derek.ocjdemo.ui.mine;
 
-import android.content.Context;
-import android.net.Uri;
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+
 
 import com.derek.ocjdemo.R;
 import com.derek.ocjdemo.base.BaseFragment;
 
 /**
- *
+ * Created by asus on 2016/10/17 09 49.
+ * 邮箱:763433963@qq.com
+ * 该fragment用于实现我的页面
  */
 public class MineFragment extends BaseFragment {
 

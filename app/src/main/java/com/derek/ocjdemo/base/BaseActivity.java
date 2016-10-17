@@ -10,6 +10,7 @@ import butterknife.Unbinder;
 /**
  * Created by asus on 2016/10/17 09 49.
  * 邮箱:763433963@qq.com
+ * 遵循MVP的设计模式 activity的基类
  */
 
 public abstract class BaseActivity extends AppCompatActivity {

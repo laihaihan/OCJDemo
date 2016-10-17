@@ -37,7 +37,7 @@
             android:checked="true"
             android:drawableTop="@drawable/tab_main_home_selector"
             android:gravity="bottom|center_horizontal"
-            android:text="@string/tab_main_btn_home"/>
+             />
 
         <RadioButton
             android:id="@+id/tab_btn_main_classify"
@@ -47,7 +47,7 @@
             android:button="@null"
             android:drawableTop="@drawable/tab_main_classify_selector"
             android:gravity="bottom|center_horizontal"
-            android:text="@string/tab_main_btn_classify"/>
+            />
 
         <RadioButton
             android:id="@+id/tab_btn_main_discover"
@@ -57,7 +57,7 @@
             android:button="@null"
             android:drawableTop="@drawable/tab_main_discover_selector"
             android:gravity="bottom|center_horizontal"
-            android:text="@string/tab_main_btn_discover"/>
+             />
 
         <RadioButton
             android:id="@+id/tab_btn_main_mycart"
@@ -67,7 +67,7 @@
             android:button="@null"
             android:drawableTop="@drawable/tab_main_mycart_selector"
             android:gravity="bottom|center_horizontal"
-            android:text="@string/tab_main_btn_mycart"/>
+             />
         <RadioButton
             android:id="@+id/tab_btn_main_mine"
             android:layout_width="0dp"
@@ -76,7 +76,7 @@
             android:button="@null"
             android:drawableTop="@drawable/tab_main_mine_selector"
             android:gravity="bottom|center_horizontal"
-            android:text="@string/tab_main_btn_mine"/>
+    />
     </RadioGroup>
 
 </RelativeLayout>

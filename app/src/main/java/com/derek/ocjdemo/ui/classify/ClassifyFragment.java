@@ -4,6 +4,11 @@ package com.derek.ocjdemo.ui.classify;
 import com.derek.ocjdemo.R;
 import com.derek.ocjdemo.base.BaseFragment;
 
+/**
+ * Created by asus on 2016/10/17 09 49.
+ * 邮箱:763433963@qq.com
+ * 该fragment用于实现分类页面
+ */
 public class ClassifyFragment   extends BaseFragment {
 
     @Override
