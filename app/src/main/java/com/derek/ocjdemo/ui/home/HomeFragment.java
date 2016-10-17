@@ -1,12 +1,11 @@
 package com.derek.ocjdemo.ui.home;
 
-
-
 import com.derek.ocjdemo.R;
 import com.derek.ocjdemo.base.BaseFragment;
 
 /**
- *
+ *首页fragment
+ * 主界面
  */
 public class HomeFragment extends BaseFragment {
 
