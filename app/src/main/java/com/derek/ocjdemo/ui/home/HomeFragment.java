@@ -5,6 +5,7 @@ import com.derek.ocjdemo.base.BaseFragment;
 
 /**
  *首页fragment
+ * 主界面
  */
 public class HomeFragment extends BaseFragment {
 
