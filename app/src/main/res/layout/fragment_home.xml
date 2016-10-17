@@ -1,13 +1,32 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context="com.derek.ocjdemo.ui.home.HomeFragment">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.derek.ocjdemo.ui.home.HomeFragment">
+    <!-- 使用 design 包 中的 TabLayout-->
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_main_tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="主页"/>
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="#F2342A"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#F2342A"
+        app:tabTextColor="#000">
+    </android.support.design.widget.TabLayout>
 
-</FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F2342A"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_main_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
