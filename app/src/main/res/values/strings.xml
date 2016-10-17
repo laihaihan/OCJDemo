@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OCJDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="tab_main_btn_home">首页</string>
+    <string name="tab_main_btn_classify">分类</string>
+    <string name="tab_main_btn_discover">发现</string>
+    <string name="tab_main_btn_mycart">购物车</string>
+    <string name="tab_main_btn_mine">我</string>
+</resources>
