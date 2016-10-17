@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <ImageView
+        android:id="@id/loading_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcom_default"/>
+    <ImageView android:id="@id/baidu_logo"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginBottom="60.0dip"
+               android:src="@drawable/baidu_union_logo"/>
+    <RelativeLayout android:id="@id/ads_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@id/ads_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            fresco:actualImageScaleType="fitXY"
+            fresco:fadeDuration="300"/>
+        <ImageView android:id="@id/close_ad"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="20.0dip"
+                   android:layout_marginTop="20.0dip"
+                   android:src="@drawable/ad_close"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@id/guideview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <android.support.v4.view.ViewPager
+            android:id="@id/guide_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true"/>
+        <ImageButton
+            android:id="@id/startjourny"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/indicator"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10.0dip"
+            android:background="@android:color/transparent"
+            android:visibility="gone"/>
+        <com.ocj.oms.mobile.view.CirclePageIndicator
+            android:id="@id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30.0dip"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>
