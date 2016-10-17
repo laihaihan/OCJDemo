@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_arrTabTitles">
+        <item>首页</item>
+        <item>TV购物</item>
+        <item>团购</item>
+        <item>全球购</item>
+        <item>商城</item>
+        <item>企业官网</item>
+    </string-array>
+</resources>
